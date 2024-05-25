@@ -1,0 +1,80 @@
+body {
+	margin: 34px, 144px;
+	font-size: 21px;
+	color: rgb(138, 41, 113);
+	background-color: dodgerblue;
+}
+
+section.artbod {
+	margin: 55px 0 233px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	color: dodgerblue;
+	text-align: center;
+	font-weight: 700;
+	text-decoration-line: underline;
+}
+
+h1 {
+	font-size: 144px;
+}
+
+div#box-h1-background-img {
+	border: 5px solid rgb(13, 34, 55);
+	width: 100%;
+	height: 987px;
+	background-image: url("imgs-3fs/softball-diamond.jpg");
+	background-size: cover; /* Optional: Scale the image to cover the entire div */
+	background-position: center;
+}
+
+img {
+	margin: 34px 0;
+	width: 987px;
+	height: 610px;
+	border: 8px solid rgb(8, 55, 144);
+}
+
+ul {
+	list-style-type: none;
+	margin-left: 3px;
+}
+
+#index-a,
+#index-b,
+#index-c,
+#index-d {
+	border: 3px solid rgb(8, 55, 144);
+	background-color: aliceblue;
+}
+
+#index-a {
+	/* see section.artbod for space above border */
+	border-top: 3px solid rgb(8, 55, 144);
+
+	color: purple;
+}
+
+#index-b {
+	color: blue;
+}
+
+#index-c {
+	color: rgb(255, 0, 0);
+}
+
+#index-d {
+	color: orangered;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
